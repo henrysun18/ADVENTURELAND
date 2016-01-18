@@ -1,0 +1,19 @@
+Chronological notes
+
+read text file and save it as (temporary) Scores
+if user gets 1st place, begin write (erase text file)
+
+hscore5=hscore4
+hscore4=hscore3
+hscore3=hscore2
+hscore2=hscore1
+hscore1=userScore  <<user score.
+
+hname5=hname4
+hname4=hname3
+hname3=hname2
+hname2=hname1
+hname1=userName; <<user name.
+
+Scores=(hname1+hname2+hname3+hname4+hname5+hscore1+hscore2+hscore3+hscore4+hscore5); <<write an updated scores file AFTER user 1st
+Save the new Scores as ScoresLog.txt
